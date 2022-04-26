@@ -55,3 +55,51 @@ Generar la rama
 ```
 git branch camilo_modification
 ```
+
+Realizar checkout de la rama
+```
+git checkout camilos_modification
+```
+
+Verificar la creación de la rama y que este activa
+```
+git branch -l
+```
+
+Agregar todos los cambios al commit
+```
+git add -A
+```
+
+Ejecutar el commit
+```
+git commit -m "Commit for Camilo's branch"
+```
+
+Verificar el estado
+```
+git status
+```
+
+Resultado de verificación del estado
+
+  ![Status](6.png "Status")
+
+Realizar el push
+```
+git push --set-upstream origin camilos_modification
+```
+
+Resultado al generar el Push
+
+![Status](7.png "Status")
+
+## Solicitar el Pull request
+
+![Status](8.png "Status")
+
+![Status](9.png "Status")
+
+![Status](10.png "Status")
+
+![Status](11.png "Status")
